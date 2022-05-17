@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100Vh;
+ /* background: url("./Images2/banner03.jpg")  */
+}
+header{
+    height: 18%;
+    width: 100%;
+    /* border-radius: 15px 15px 0px 0px; */
+    background-color: #F5011A;
+    /* border-bottom: 5px solid #241F21; */
+    margin: none;
+    padding: 27px;
+    display: flex;
+    /* justify-content: */
+    align-items: center;
+}
+
+.logo1{
+    margin-left: 3rem;
+    width: 15%
+}
+
+main{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.nav1{
+    /* display: inline; */
+    padding: 10px;
+    width: 100%;
+    font-size: 35px;
+    /* margin-left: 17rem; */
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link1{
+  /* padding: 2%; */
+  height: 4rem;
+  width: 17rem;
+  margin-right: 1.5rem;
+  /* margin: 2rem; */
+  background:#F5011A;
+  border: 6px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  /* margin-left: 10rem; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  font-size:32px
+}
+
+.link2{
+    /* padding: 2%; */
+    height: 4rem;
+    width: 9rem;
+    margin-right: 1.5rem;
+    /* margin: 2rem; */
+    background:#F5011A;
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    /* margin-left: 10rem; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size:32px
+}
+
+.link3{
+    /* padding: 2%; */
+    height: 4rem;
+    width: 10rem;
+    margin-right: 1.4rem;
+    /* margin: 2rem; */
+    background:#F5011A;
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    /* margin-left: 10rem; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size:32px
+}
+
+.link4{
+   /* padding: 2%; */
+   height: 4rem;
+   width: 13rem;
+   margin-right: 2rem;
+   /* margin: 2rem; */
+   background:#F5011A;
+   border: 6px solid #ffffff;
+   border-radius: 10px;
+   color: #ffffff;
+   /* margin-left: 10rem; */
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+   font-size:32px
+}
+
+.link1:hover{
+    background: #FFFDF2;
+    cursor: pointer;
+    color: #F5011A;
+}
+
+.link2:hover{
+    background: #FFFDF2;
+    cursor: pointer;
+    color: #F5011A;
+}
+
+.link3:hover{
+    background: #FFFDF2;
+    cursor: pointer;
+    color: #F5011A;
+}
+
+.link4:hover{
+    background: #FFFDF2;
+    cursor: pointer;
+    color: #F5011A;
+}
+
+.sosteni{
+    width: 100%;
+}
+
+.div2{
+    background-color: #FFFDF2;
+    /* height: 100%; */
+    /* width: 100%; */
+    margin-left: 14%;
+    /* flex-direction: column; */
+} 
+
+.div2 h2{
+    height: 50%;
+    width: 35%;
+    /* margin: 1px; */
+    border-top: 3px solid #F5011A;
+    border-bottom: 3px solid #F5011A;
+    color: #F5011A;
+    /* margin-left: 7rem; */
+    /* width: 50%; */
+    display:flex;
+    font-size: 2.7em;
+    margin-top: 9rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+    /* justify-content:center; */
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.p1{
+    /* margin: 1rem; */
+    font-size:23px;
+    margin-left: 14%;
+    width: 34%;
+    float: left;
+}
+
+.div2 img{
+    width: 39%;
+    margin-right: 19rem;
+    margin-top: 7rem;
+    /* margin-top: 3rem; */
+float: right;
+}
+
+.article1{
+    width: 100%;
+    height: 13rem;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./Images2/patron_nosotros.jpg") 
+}
+
+.div3{
+    color: #FFFDF2;
+    width: 75%;
+    font-size:  1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    height: 17%;
+    margin-top: 6rem;
+    background-color: #F5011A;
+    color: #ffffff;
+    font-size: 35px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}

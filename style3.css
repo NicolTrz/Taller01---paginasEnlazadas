@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .formulario{
+    width: 100%;
+    height: 85%;
+    /* margin-top: 5rem; */
+    /* background-color: #F5011A; */
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+header{
+    /* border: 5px solid #F5011A; */
+    /* border-radius: 8px; */
+    /* margin-top:15rem; */
+    height: 15%;
+    width: 100%;
+    /* border-radius: 15px 15px 0px 0px; */
+    background-color: #F5011A;
+    /* border-bottom: 5px solid #241F21; */
+    margin-bottom: 0.5rem;
+    padding: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.titulo{
+    color: #F5011A;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-s{
+    background-color:rgb(0, 0, 0);
+    /* height: 2rem; */
+    color: #ffff;
+    width: 75%;
+    height: 2.5rem;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-left: 3.5rem;
+}
+
+.ciudad1{
+    width: 75%;
+    height:2.5rem;
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-top: 0.5rem;
+    /* margin-left: 3rem; */
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 3.5rem;
+    background-color: rgb(0, 0, 0)
+}
+
+#mensaje{
+    width:130%;
+    color: #ffffff;
+    padding: 0.5rem;
+    margin-left: -3.5rem;
+    height:10rem;
+    font-size: 1.1rem;
+    background-color: #000000;
+    border-radius: 15px;
+} 
+
+#Borrar{
+    width: 11rem;
+    height: 3rem;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    margin: 2rem;
+    border: none;
+    background-color: #F5011A;
+    color: #FFFFFF;
+}
+
+#Borrar:hover{
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+#Enviar{
+    width: 9rem;
+    height: 3rem;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    margin: 1rem;
+    border: none;
+    background-color: #F5011A;
+    color: #FFFFFF;
+}
+
+#Enviar:hover{
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.nav1{
+    /* display: inline; */
+    padding: 10px;
+    width: 100%;
+    font-size: 35px;
+    /* margin-left: 17rem; */
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer{
+    width: 100%;
+    height: 17%;
+    margin-top: 6rem;
+    background-color: #F5011A;
+    color: #ffffff;
+    font-size: 55px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.link1{
+  /* padding: 2%; */
+  height: 4rem;
+  width: 17rem;
+  margin-right: 1.5rem;
+  /* margin: 2rem; */
+  background:#F5011A;
+  border: 6px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  /* margin-left: 10rem; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  font-size:32px
+}
+
+.link2{
+    /* padding: 2%; */
+    height: 4rem;
+    width: 9rem;
+    margin-right: 1.5rem;
+    /* margin: 2rem; */
+    background:#F5011A;
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    /* margin-left: 10rem; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size:32px
+}
+
+.link3{
+    /* padding: 2%; */
+    height: 4rem;
+    width: 10rem;
+    margin-right: 1.4rem;
+    /* margin: 2rem; */
+    background:#F5011A;
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    /* margin-left: 10rem; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size:32px
+}
+
+.link4{
+   /* padding: 2%; */
+   height: 4rem;
+   width: 13rem;
+   margin-right: 2rem;
+   /* margin: 2rem; */
+   background:#F5011A;
+   border: 6px solid #ffffff;
+   border-radius: 10px;
+   color: #ffffff;
+   /* margin-left: 10rem; */
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+   font-size:32px
+}
+
+.link1:hover{
+    background: #FFFDF2;
+    cursor: pointer;
+    color: #F5011A;
+}
+
+.link2:hover{
+    background: #FFFDF2;
+    cursor: pointer;
+    color: #F5011A;
+}
+
+.link3:hover{
+    background: #FFFDF2;
+    cursor: pointer;
+    color: #F5011A;
+}
+
+.link4:hover{
+    background: #FFFDF2;
+    cursor: pointer;
+    color: #F5011A;
+}
+
+.logo1{
+    margin-left: 3rem;
+    width: 15%
+}
+
+main{
+    width: 100%;
+    /* height: 70%; */
+}
+
